@@ -1,4 +1,12 @@
 body {
   background-color: #333333;
   color: #ffffff;   
+  margin: 0px;
+  padding: 0px;
+}
+
+.root {
+  margin: 0px;
+  padding: 0px;
+
 }

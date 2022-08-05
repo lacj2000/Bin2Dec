@@ -1,16 +1,17 @@
 import {FunctionComponent, useState} from 'react';
 import { binToDec, isBinary } from '../../utils/functions';
-
+import "../../styles/pages/BinToDec.css";
 interface IBinToDecProps {
 }
 
+const p = 1000;
 
 const BinToDec: FunctionComponent = (props: IBinToDecProps) => {
   const [binaryValue, setBinaryValue] = useState("");
 
   
   return (
-    <div>
+    <div className="container">
       <h1 className="Title" >
         Binary To Decimal
       </h1>
